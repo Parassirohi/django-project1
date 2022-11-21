@@ -18,7 +18,7 @@ def product_detail_view(request):
     #     "title": my_product.title,
     #     "description": my_product.description
     # }
-    print(my_product)
+    # print(my_product)
     context = {
         "my_product": my_product
     }
