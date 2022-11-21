@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{{ my_product.title }}</h1>
+<p>{% if my_product.description != None and my_product.description != '' %}
+    {{ my_product.description}}{% else %}Description coming soon{% endif %}</p>
+{{ my_product.price}}
+{% endblock %}
